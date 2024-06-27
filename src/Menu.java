@@ -41,7 +41,7 @@ public class Menu {
         double somaNotas = 0.0;
         
         for (Aluno aluno : listaAlunos) {
-            if (aluno.getNota() >= 6.0) { // Considerando 6.0 como a nota mínima para aprovação
+            if (aluno.getNota() >= 6.0) {
                 aprovados++;
             } else {
                 reprovados++;
@@ -75,6 +75,5 @@ public class Menu {
         System.out.println("Menor nota: " + menorNota);
         System.out.println("Maior nota: " + maiorNota);
         System.out.println("Média da turma: " + media);
-    }
     }
 }
